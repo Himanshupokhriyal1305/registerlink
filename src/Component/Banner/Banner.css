@@ -13,6 +13,11 @@
         width: 30px  !important;
         height: 30px !important;
     } 
+    .banner{
+    
+        background-position: right !important; /* Center the image */
+       
+    }
     .talk-to{
         background-color: rgba(28, 70, 112, 1);
         width: 114px !important;}
@@ -32,13 +37,7 @@
         font-style: 32px;
         font-weight: 700;
     }
-    .banner{
-        background-image: url('/src//Component//Asstes/Group\ 1000005942-Photoroom.png');
-        background-repeat: no-repeat;
-        background-size: cover; /* Adjust to fit the container */
-        background-position: right !important; /* Center the image */
-       
-    }
+    
     
 }
 .partner{
