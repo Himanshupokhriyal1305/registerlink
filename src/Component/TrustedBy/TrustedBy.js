@@ -9,7 +9,7 @@ const TrustedBy = () => {
       <h2 className="trusted-by-title ">
         Trusted By Over 100+ Startups and Freelance Businesses
       </h2>
-        <div className="row pt-5">
+        <div className="row pt-5 text-center">
           <div className="col-lg-2 col-md-4 col-sm-6 p-3">
             <img src={Allimages.vector} alt="Oracle.com" className=" trusted-logo" />
           </div>
