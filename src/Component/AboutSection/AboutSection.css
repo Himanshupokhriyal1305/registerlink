@@ -1,0 +1,29 @@
+
+.Intelegencia{
+    font-weight: 400;
+    font-size: clamp(11px , 2vw, 16px);
+}
+
+.Register{
+    font-size: clamp(16px , 2vw, 32px);
+}
+.RegisterW{
+    font-size: clamp(10px , 2vw, 14px);
+    font-weight: 400;
+
+}
+@media (max-width : 576px) {
+.Intelegencia{
+    padding-right: 0px !important;
+        } }
+.LearnMore{
+    background-color: rgba(28, 70, 112, 1);
+    height: 48px;
+    width: 157px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    text-decoration: none;
+}

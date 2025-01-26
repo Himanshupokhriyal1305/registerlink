@@ -1,0 +1,19 @@
+.organ{
+    background-color: rgba(254, 243, 239, 1);
+}
+.green{
+    background-color: rgba(241, 251, 243, 1);
+}
+.blue{
+    background-color: rgba(237, 243, 255, 1);
+}
+.pink{
+    background-color: rgba(251, 241, 251, 1);
+}
+.light{
+background-color: rgba(39, 174, 96, 0.04);
+}
+.Shelid{
+    height: 40px;
+    width: 40px;
+}

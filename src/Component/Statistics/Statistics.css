@@ -1,0 +1,21 @@
+.text-gradient-blue {
+    background: linear-gradient(30deg,rgba(245, 56, 67, 1), rgba(47, 87, 149, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-red {
+    background: linear-gradient(30deg,rgba(245, 56, 67, 1), rgba(47, 87, 149, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-gold {
+    background: linear-gradient(30deg,rgba(245, 56, 67, 1), rgba(47, 87, 149, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .trusted-by-some {
+    font-size: clamp(18px, 2vw, 2rem);
+    font-weight: 700;
+  }

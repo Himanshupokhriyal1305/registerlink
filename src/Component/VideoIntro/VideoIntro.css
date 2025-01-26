@@ -1,0 +1,45 @@
+.video-intro-section {
+    background-color: rgba(28, 70, 112, 1)
+  }
+  
+  .icon-container {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .video-thumbnail img {
+    border-radius: 10px;
+  }
+  .Trusted{
+    display: ruby;
+  }
+  
+  .play-button {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-button button {
+    font-size: 30px;
+    border: none;
+  }
+  .Velit {
+    font-size: clamp(12px , 2vw, 1rem);
+    font-weight: 400;
+  }
+  @media (max-width : 576px) {
+  
+    .video-intro-section{
+        padding: 0px !important;
+    }
+    .partneres{
+        font-size: clamp(15px , 2vw, 1rem);
+
+    }}

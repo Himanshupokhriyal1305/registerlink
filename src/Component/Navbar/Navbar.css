@@ -1,0 +1,108 @@
+/* General Input Styles */
+.nav-item .search-input {
+    border-radius: 20px;
+    height: 32px;
+    padding: 0 10px;
+    outline: none;
+    width: 0; /* Initially hidden */
+    opacity: 0; /* Fully transparent initially */
+    transition: all 0.3s ease; /* Smooth transition */
+    margin-left: 5px;
+  }
+  
+  /* On Hover Over Icon */
+  .nav-item:hover .search-input {
+    width: 200px; /* Expand the input */
+    opacity: 1; /* Fully visible */
+  }
+  
+  /* Icon Hover Style */
+  .nav-item .search-icon {
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .nav-item:hover .search-icon {
+    color: #ffa229; /* Highlight the icon */
+  }
+  
+  /* Input Focus Styles */
+  .nav-item .search-input:focus {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ffa229;
+  }
+  @media (max-width : 436px) {
+    .logo{
+        position: relative;
+        left: -33%;
+        width: 128px !important;
+      }
+      .navbar-nav{
+        
+        padding-left: 0rem !important;
+        }
+        .Talk-To-expert1 {
+            margin-left: 0rem !important;
+        }
+        .Company{
+          display: none;
+        }
+
+  }
+ 
+  @media (max-width : 992px) {
+    .footerfont{
+      font-size: 12px !important;
+      font-weight: 400 !important;
+    }
+    
+    .break{
+      display: block ;
+    }
+   
+    .breack2{
+      width: 100%;
+      padding: 1rem;
+    }
+    .navbar-nav{
+    display: flex !important;
+    justify-self:start !important;
+    align-items: start !important;
+    padding-left: 3rem;
+    }
+    .Company{
+      position: absolute;
+      top: 71% !important;
+      right: 0;
+  }
+  }
+  .nav-item {
+    font-size: 16px;
+    font-weight: 600;
+    font-family:inherit;
+  }
+  .nav-item .fa-angle-down {
+    font-size: 12px; /* Adjust the size of the icon */
+    color: #333; /* Default color */
+    transition: transform 0.3s ease; /* Smooth rotation transition */
+  }
+  
+  .nav-item.dropdown.show .fa-angle-down {
+    transform: rotate(180deg); /* Rotate when dropdown is open */
+  }
+  .logo{
+    width: 200px;
+    height: 36px;
+    object-fit: contain;
+  }
+  .Talk-To-expert{
+    background-color: rgba(255, 162, 41, 1);
+    font-size: 16;
+    border-radius: 4px;
+    width: 157px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

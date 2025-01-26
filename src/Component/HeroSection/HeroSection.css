@@ -1,0 +1,66 @@
+.hero{
+    background-image: url('/src//Component//Asstes/Section\ \(1\)-Photoroom.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust to fit the container */
+    background-position: top; /* Center the image */
+   
+}
+
+.rightleft{
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+    justify-content: center;
+    
+
+}
+
+.digital{
+    font-style: 30px;
+    font-weight: 600;
+}
+.whiteright{
+    width: 20px;
+    height: 20px;
+
+}
+.rightleftmain{
+    display: flex;
+    justify-content: center;
+}
+.controlfrom{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.btnfrom{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+@media (max-width : 772px) {
+    .digital{
+        font-size: clamp(12.9px,2vw,30px);
+    } }
+    @media (max-width : 544px) {
+        .rightleftmain{
+            display: block;
+            
+            
+        }
+        .controlfrom {
+            width: 100%;
+            border-radius: 6px !important;
+        }
+        .btnfrom{
+            border-radius: 6px !important;
+            margin-top: 10px;
+
+        }
+        .rightleft1{
+            padding-right: 98px;
+        }
+        .rightleft2{
+            padding-right: 39px;
+        } }

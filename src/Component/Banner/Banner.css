@@ -1,0 +1,91 @@
+.banner{
+    background-image: url('/src//Component//Asstes/Group\ 1000005942-Photoroom.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust to fit the container */
+    background-position: top; /* Center the image */
+   
+}
+.display-5{
+    font-weight: 500;
+}
+@media (max-width : 576px) {
+    .logouser{
+        width: 30px  !important;
+        height: 30px !important;
+    } 
+    .talk-to{
+        background-color: rgba(28, 70, 112, 1);
+        width: 114px !important;}
+    .logowindow{
+        width: 30px  !important;
+        height: 30px !important;
+    } }
+@media (min-width : 992px) {
+    .display-5{
+        white-space: nowrap;
+    }  
+    .LearnMore{
+        position:relative;
+    bottom: 5%;
+    }
+    .digital{
+        font-style: 32px;
+        font-weight: 700;
+    }
+  
+    
+}
+.partner{
+    font-size : clamp(1.1rem,2vw,1.435rem);
+    font-weight: 700;
+
+
+}
+.talk-to{
+    background-color: rgba(28, 70, 112, 1);
+    width: 204px;
+    height: 54px;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pagra{
+    font-size : clamp(12px ,2vw,20px);
+    font-weight: 400;
+}
+.bannerthree{
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.Annual{
+background-color: rgba(255, 255, 255, 1);
+color: rgba(0, 0, 0, 1);
+}
+
+.trusted-logo{
+    width: 137.15px;
+}
+.logouser{
+    width: 58px;
+    height: 58px;
+}
+.Company{
+    position: absolute;
+    top: 19%;
+    right: 0;
+}
+.Annual{
+    width: 100%;
+   
+}
+.logowindow{
+    width: 40px;
+    height: 40px;
+}
+.bannerthree{
+    line-height: 15px;
+}

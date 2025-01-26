@@ -1,0 +1,10 @@
+@media (max-width : 436px) {
+    .hear{
+       
+        margin-right: 1rem !important;
+    }
+  }
+  .Header{
+    font-size: clamp(8px , 2vw, 1rem);
+    font-weight: 600;
+}
